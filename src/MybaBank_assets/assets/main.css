@@ -1,0 +1,23 @@
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+background-color: rgba(95, 64, 31, 0.753);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    background-color: antiquewhite;
+    border-radius: 10%;
+    border: 3px solid rgb(91, 91, 95);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 300px;
+}

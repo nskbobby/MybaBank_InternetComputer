@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="main.css">
+  <title>MybaBank</title>
+</head>
+<body>
+<main>
+  <div class="container-main">
+    <heading>
+      <h1>Myba Bank</h1>
+    </heading>
+    <div class="gretting">
+      <h2>Welcome to the worlds simplest bank running on BlockChain</h2>
+    </div>
+    <div class="message">
+      <h4>Who are we? We are old school bank pretending to be an ancient bank.
+         Our terms are simple we keep log book and add subtract the money you business</h4>
+    </div>
+    <form class="transaction-form">
+      <h1 id="currentBalance"></h1>
+      <label for="amount">Enter amount for transaciton: </label>
+      <input type="number" class="amount" name="amount" placeholder="enter amount" required>
+      <div>
+      <input type="radio" id="withdrawal" name="transaction-type" class="transaction-type" value="withdrawal" required>
+      <label for="withdrawal">withdraw</label>
+    </div>
+  <div>
+      <input type="radio" id="deposit" name="transaction-type" class="transaction-type" value="deposit" required>
+      <label for="deposit">deposit</label>
+    </div>
+      <button id="submit-button" type="submit" value="submit">Agree</button>
+    </form>
+
+  </div>
+</main>
+</body>
+</html>
